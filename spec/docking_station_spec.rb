@@ -46,4 +46,4 @@ describe DockingStation do
       subject.dock_bike(bike)
       expect{subject.release_bike}.to raise_error("No working bikes available.")
     end
-gitend
+end
